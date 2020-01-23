@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Girassol&display=swap');
 
+/* background */
+body{
+    background-image: url(part.gif);
+    background-size: cover; 
+    background-attachment: fixed;                     
+    background-repeat:   no-repeat;
+    background-position: center;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
 /* ------ creates a transparant box ----------- */
 .transtextbox {
     margin: 30px;
