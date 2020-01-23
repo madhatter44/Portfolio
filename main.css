@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Girassol&display=swap');
+
+/* ------ creates a transparant box ----------- */
+.transtextbox {
+    margin: 30px;
+    background-color: rgb(255, 255, 255, 0.0);
+    border-radius: 10px;
+    text-align: center;
+    bottom:auto;
+}
+/* main page text border*/
+.mb{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 20pt;
+    height: 320px;
+    text-align: center;
+}
+
+/*--------- Fonts--------------------- */
+.font1{
+    font-family: 'Bangers', cursive;
+    font-size: 24px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.font2{
+    font-family: 'Girassol', cursive;
+    font-size: 24px;
+    color: rgb(255, 255, 255); 
+    white-space: nowrap;
+    text-align: end;
+}
+.font3{ /* for header only */
+    font-family: 'Girassol', cursive;
+    font-size: 40px;
+    text-align: auto;
+    color: rgb(255, 255, 255); 
+}
+/*---------------------------------------*/
+
+/* unit 1 & 2 paragraph */
+
+.u2pht{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 20pt;
+    height: 180px;
+    text-align: center;
+}
+/* unit 2 heading  */
+
+.u2hdwth{
+    margin: auto;
+    font-family: 'Girassol', cursive;
+    text-align: center;
+    width: 500px;
+}
+
+.opac{opacity: 35%;
+    filter: alpha(opacity=50);
+}
+
+/* terllo hyperlink */
+
+.tboard a{
+    transition: color 0.3s ease;
+}
+.tboard a:hover{
+    transition: color 0.3s ease;
+    color: rgb(134, 134, 134)
+} 
+
+/* header */
+
+.h{ 
+    color: rgb(255, 255, 255);
+    font-family: 'Girassol', cursive;
+    text-align: center;
+    width: 500px;
+}
